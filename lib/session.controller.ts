@@ -35,7 +35,11 @@ export class SessionController {
   static getAuthHeaders(): any[] {
     let headers = [];
 
-    this.config.authHeaders.forEach(header => headers[header] = localStorage.getItem(header));
+    this.config.authHeaders.forEach(header => {
+      let h = {};
+      h[header] = localStorage.getItem(header);
+      headers.push(h);
+    });
 
     return headers;
   }

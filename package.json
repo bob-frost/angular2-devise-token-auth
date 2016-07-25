@@ -1,5 +1,6 @@
 {
   "name": "angular2-devise-token-auth",
+  "version": "1.2.1",
   "description": "Helper library for working with Devise Token Auth in your Angular 2 applications",
   "repository": {
     "type": "git",
