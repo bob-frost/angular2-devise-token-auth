@@ -13,7 +13,7 @@
     "token",
     "auth"
   ],
-  "main": "./dist/angular2-devise-token-auth.js",
+  "main": "./lib/angular2-devise-token-auth.ts",
   "typings": "./dist/angular2-devise-token-auth.d.ts",
   "homepage": "https://github.com/equalize-squad/angular2-devise-token-auth#readme",
   "scripts": {
