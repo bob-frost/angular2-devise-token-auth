@@ -93,7 +93,7 @@ export class AuthHttp {
           this.checkAuthorization(response);
       })
       .catch((error:any) => {
-        return Observable.throw(error.json() || 'Server error');
+        return Observable.throw(error);
       });
   }
 
